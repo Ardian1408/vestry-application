@@ -12,7 +12,7 @@
 
 <body class="w-full h-screen flex items-center bg-gradient-to-br from-blue-950 to-neutral-800 justify-center">
   <div class="rounded-xl overflow-hidden flex lg:w-[60rem] md:w-[50rem] sm:w-[40rem] w-[30rem] h-[36rem] bg-white">
-    <div class="md:w-[20rem] w-0 bg-[url('/images/auth-picture.jpeg')] z-10 shadow-lg shadow-blue-950 bg-cover bg-center"></div>
+    <div class="md:w-[20rem] w-0 bg-[url('/images/auth-picture.jpg')] z-10 shadow-lg shadow-blue-950 bg-cover bg-center"></div>
     <div class="flex-1 flex flex-col items-center text-center gap-2">
       <div class="flex flex-col items-center text-neutral-800 mt-4">
         <img src="/images/logo.png" alt="vestry logo" class="w-10 h-10">
