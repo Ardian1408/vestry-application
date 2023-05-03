@@ -6,12 +6,12 @@
   </div>
   <div class="md:col-span-3 sm:col-span-6 col-span-full flex flex-col gap-y-2 items-center justify-start h-full text-center">
     <img src="" class="w-10 h-10 object-contain object-center" alt="">
-    <h3 class="text-amber-400 font-medium">Proyek pendanaan</h3>
+    <h3 class="text-amber-400 font-medium">Proyek Pendanaan</h3>
     <p class="text-neutral-400 text-sm font-light">Terdiri dari berbagai fitur pendukung seperti e-contract, pembayaran, pencairan, progress serta bagi hasil yang dapat mempermudah baik dari sisi mitra maupun pendana.</p>
   </div>
   <div class="md:col-span-3 sm:col-span-6 col-span-full flex flex-col gap-y-2 items-center justify-start h-full text-center">
     <img src="" class="w-10 h-10 object-contain object-center" alt="">
-    <h3 class="text-amber-400 font-medium">Riwayat pendanaan</h3>
+    <h3 class="text-amber-400 font-medium">Riwayat Pendanaan</h3>
     <p class="text-neutral-400 text-sm font-light">Ringkasan proyek pendanaan yang pernah dijalankan baik dari sisi mitra maupun pendana</p>
   </div>
 </div>
