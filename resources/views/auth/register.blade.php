@@ -17,8 +17,7 @@
       @if (empty(request()->get('role')))
         <div class="flex flex-col items-center justify-center w-full h-full bg-teal-700">
           <div class="flex flex-col items-center text-neutral-800 my-4">
-            <img src="/images/logo.png" alt="vestry logo" class="w-10 h-10">
-            <h2 class="text-lg font-bold text-white">Vestry Application</h2>
+            <img src="/images/logo.png" alt="vestry logo" class="w-40 h-16">
           </div>
           <div class="flex rounded-full h-[2rem] w-[21rem] overflow-hidden shadow-md shadow-black/80 bg-white">
             <a href="/register?role=pendana"
@@ -28,9 +27,8 @@
           </div>
         </div>
       @else
-        <div class="flex flex-col items-center text-neutral-800 mt-4">
-          <img src="/images/logo.png" alt="vestry logo" class="w-10 h-10">
-          <h2 class="text-lg font-bold">Vestry Application</h2>
+        <div class="flex flex-col items-center text-neutral-800 mt-4 bg-neutral-800 p-4 rounded-lg">
+          <img src="/images/logo.png" alt="vestry logo" class="w-40 h-16">
         </div>
         <h1 class="text-yellow-500 text-3xl font-semibold">Register</h1>
         <div class="flex flex-col items-center gap-y-1">
@@ -136,8 +134,8 @@
             class="w-[15rem] text-white hover:text-yellow-500 hover:bg-white bg-yellow-500 rounded-full hover:shadow-md hover:shadow-black duration-200 py-1 cursor-pointer font-medium self-center my-2 text-lg">REGISTER</button>
           <div class="flex text-sm font-medium self-center">
             <p class="text-neutral-600">
-              Already have account?
-              <a href="/login" class="hover:text-teal-400 duration-200">Sign In</a>
+              Sudah Punya Akun?
+              <a href="/login" class="hover:text-teal-400 duration-200">Login</a>
             </p>
           </div>
         </form>
