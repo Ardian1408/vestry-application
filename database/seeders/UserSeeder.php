@@ -25,26 +25,6 @@ class UserSeeder extends Seeder
       'email' => 'admin@vestry.com',
       'password' => Hash::make('admin123'),
     ]);
-    Pendana::create([
-      'nama' => 'Tester Pendana',
-      'username' => 'pendana 1',
-      'email' => 'pendana@vestry.com',
-      'password' => Hash::make('12345678'),
-    ]);
-    PemilikUsaha::insert(array(
-      [
-        'nama' => 'Tester Pengusaha 1',
-        'username' => 'pengusaha1',
-        'email' => 'pengusaha1@vestry.com',
-        'password' => Hash::make('12345678'),
-      ],
-      [
-        'nama' => 'Tester pengusaha 2',
-        'username' => 'pengusaha2',
-        'email' => 'pengusaha2@vestry.com',
-        'password' => Hash::make('12345678'),
-      ],
-    ));
     StatusPengajuan::insert(array(
       ['status_pengajuan' => 'Belum Terkonfirmasi'],
       ['status_pengajuan' => 'Terkonfirmasi'],
@@ -62,6 +42,50 @@ class UserSeeder extends Seeder
       ['nama_jenis_usaha' => 'Wifi Provider'],
       ['nama_jenis_usaha' => 'Rumah Makan'],
       ['nama_jenis_usaha' => 'Tempat Wisata']
+    ));
+    Pendana::create([
+      'nama' => 'Tester Pendana',
+      'username' => 'pendana 1',
+      'email' => 'pendana@vestry.com',
+      'password' => Hash::make('12345678'),
+      'id_bank' => 2,
+      'no_hp' => '0855513266',
+      'no_ktp' => '011224433666',
+      'kota' => '3509',
+      'kecamatan' => '350921',
+      'pekerjaan' => 'code',
+      'no_rekening' => '777888999',
+      'alamat_rumah' => 'Jalan Mangkubumi no 7'
+    ]);
+    PemilikUsaha::insert(array(
+      [
+        'nama' => 'Tester Pengusaha 1',
+        'username' => 'pengusaha1',
+        'email' => 'pengusaha1@vestry.com',
+        'password' => Hash::make('12345678'),
+        'id_bank' => 2,
+        'no_hp' => '0855513266',
+        'no_ktp' => '011224433666',
+        'kota' => '3509',
+        'kecamatan' => '350921',
+        'pekerjaan_sampingan' => 'code',
+        'no_rekening' => '777888999',
+        'alamat_rumah' => 'Jalan Mangkubumi no 7'
+      ],
+      [
+        'nama' => 'Tester pengusaha 2',
+        'username' => 'pengusaha2',
+        'email' => 'pengusaha2@vestry.com',
+        'password' => Hash::make('12345678'),
+        'id_bank' => 2,
+        'no_hp' => '0855513266',
+        'no_ktp' => '011224433666',
+        'kota' => '3509',
+        'kecamatan' => '350921',
+        'pekerjaan_sampingan' => 'code',
+        'no_rekening' => '777888999',
+        'alamat_rumah' => 'Jalan Mangkubumi no 7'
+      ],
     ));
     DeskripsiUsaha::insert(
       array(
