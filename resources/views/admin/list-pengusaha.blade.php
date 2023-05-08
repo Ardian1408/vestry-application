@@ -41,7 +41,7 @@
 
     {{-- LIST USER --}}
     <div class="flex-1 flex flex-col pr-6 relative gap-4">
-      <h1 class="text-yellow-500 font-righteous text-3xl text-center my-4">Daftar Pendana</h1>
+      <h1 class="text-yellow-500 font-righteous text-3xl text-center my-4">Daftar Pengusaha</h1>
       <div class="bg-white p-2 rounded-md">
         <table class="w-full">
           <thead>

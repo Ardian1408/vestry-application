@@ -24,7 +24,11 @@
       <h2 class="text-yellow-500 font-semibold text-2xl my-4">Usaha</h2>
       <div class="flex px-2">
         <div class="h-full min-w-[20rem] rounded-md bg-[url('/images/usaha.jpg')] bg-cover bg-center z-10 shadow-md shadow-black/40"></div>
-        <p class="px-4 text-justify text-neutral-400 drop-shadow-md">INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK. INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK.INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK.INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK.INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK.INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK.INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK.INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK.INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK.INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK.INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK.INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK.INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK.INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK.INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK.INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK.INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK.INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK.INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK.INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK.INFO PROGRAMMER ASTAGA, FULL STACK LAGI WKWK.</p>
+        <p class="px-4 text-justify text-neutral-400 drop-shadow-md">Konten Konten beranda beserta isinya. Konten Konten beranda beserta isinya. Konten Konten beranda beserta isinya.
+          Konten Konten beranda beserta isinya.Konten Konten beranda beserta isinya.Konten Konten beranda beserta isinya.
+          Konten Konten beranda beserta isinya.Konten Konten beranda beserta isinya.Konten Konten beranda beserta isinya.Konten Konten beranda beserta isinya.Konten Konten beranda beserta isinya.
+          Konten Konten beranda beserta isinya.Konten Konten beranda beserta isinya.Konten Konten beranda beserta isinya.Konten Konten beranda beserta isinya.Konten Konten beranda beserta isinya.Konten Konten beranda beserta isinya.
+        </p>
       </div>
     </div>
     <div class="swiper-slide flex flex-col items-center">
