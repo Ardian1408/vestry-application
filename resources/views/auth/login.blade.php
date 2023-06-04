@@ -11,6 +11,17 @@
 </head>
 
 <body class="w-full h-screen flex items-center bg-gradient-to-br from-blue-950 to-neutral-800 justify-center">
+  @if (session()->has('pesan'))
+    <div class="absolute w-full h-full bg-neutral-500/50 flex items-center justify-center z-10">
+      <div class="p-4 bg-white rounded-md flex flex-col items-center text-neutral-700 font-roboto font-medium gap-2 text-center">
+        <h2 class="text-lg">Pesan!</h2>
+        <p class="text-sm font-light text-neutral-400 w-[10rem]">{{ session()->get('pesan') }}</p>
+        <a href="/login"
+          class="py-1 w-[7rem] text-center bg-red-500 text-white hover:text-red-500 hover:bg-white rounded-md hover:shadow-md hover:shadow-red-500/50">close</a>
+      </div>
+    </div>
+    {{ session()->forget('pesan') }}
+  @endif
   <div class="rounded-xl overflow-hidden flex lg:w-[60rem] md:w-[50rem] sm:w-[40rem] w-[30rem] h-[36rem] bg-neutral-100">
     <div class="md:w-[20rem] w-0 bg-[url('/images/auth-picture.jpg')] z-10 shadow-lg shadow-blue-950 bg-cover bg-center"></div>
     @if (empty(request()->get('role')))
@@ -49,20 +60,21 @@
           @csrf
           <div class="flex flex-col items-start w-[20rem]">
             <p class="text-yellow-500 font-medium mx-2">Email</p>
-            <input type="email" placeholder="user@mail.com" name="email"
+            <input type="email" placeholder="user@mail.com" name="email" required oninput="this.setCustomValidity('')"
               class="outline-none text-neutral-400 font-medium placeholder:text-neutral-400 border-2 border-neutral-400 focus:text-yellow-500 duration-200 w-full  rounded-md py-1 px-2 focus:border-yellow-500">
           </div>
           <div class="flex flex-col items-start w-[20rem]">
             <p class="text-yellow-500 font-medium mx-2">Password</p>
-            <input type="password" placeholder="password" name="password"
+            <input type="password" placeholder="password" name="password" required oninvalid="this.setCustomValidity('Semua data harus diisi')"
+              autofocus="" oninput="this.setCustomValidity('')"
               class="outline-none text-neutral-400 font-medium placeholder:text-neutral-400 border-2 border-neutral-400 focus:text-yellow-500 duration-200 w-full rounded-md py-1 px-2 focus:border-yellow-500">
           </div>
           <button type="submit"
             class="w-[15rem] text-white hover:text-yellow-500 hover:bg-white bg-yellow-500 rounded-full hover:shadow-md hover:shadow-black duration-200 py-1 cursor-pointer font-medium self-center my-2 text-lg">LOGIN</button>
           <div class="flex text-sm font-medium self-center">
             <p class="text-neutral-600">
-              Tidak Punya Akun?
-              <a href="/register" class="hover:text-teal-400 duration-200">Register</a>
+              Doesn't have account?
+              <a href="/register" class="hover:text-teal-400 duration-200">Sign Up</a>
             </p>
           </div>
         </form>

@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class DeskripsiUsaha extends Model
 {
@@ -26,16 +27,21 @@ class DeskripsiUsaha extends Model
 
   public function pemilikUsaha()
   {
-    return $this->belongsTo(pemilikUsaha::class);
+    return $this->belongsTo(pemilikUsaha::class, 'id_pemilik_usaha', 'id_pemilik_usaha');
   }
 
   public function jenisUsaha()
   {
-    return $this->belongsTo(JenisUsaha::class);
+    return $this->belongsTo(JenisUsaha::class, 'id_jenis_usaha', 'id_jenis_usaha');
   }
 
   public function statusPengajuan()
   {
-    return $this->belongsTo(StatusPengajuan::class);
+    return $this->belongsTo(StatusPengajuan::class, 'id_status_pengajuan', 'id_status_pengajuan');
+  }
+
+  public function proyekPendanaan(): HasMany
+  {
+    return $this->hasMany(ProyekPendanaan::class);
   }
 }
