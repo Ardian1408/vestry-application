@@ -81,14 +81,14 @@
             </div>
             <div class="col-span-4 flex flex-col items-start">
               <p class="text-yellow-500 font-medium mx-2">Alamat Rumah</p>
-              <input type="text" placeholder="alamat_rumah" name="alamat_rumah" required
+              <input type="text" placeholder="Masukkan Alamat rumah" name="alamat_rumah" required
                 oninvalid="this.setCustomValidity('Semua data harus diisi')" oninput="this.setCustomValidity('')"
                 {{ empty(request()->get('kota')) || empty(request()->get('kecamatan')) ? 'disabled' : '' }}
                 class="outline-none text-neutral-400 font-medium placeholder:text-neutral-400 border-2 border-neutral-400 focus:text-yellow-500 duration-200 w-full  rounded-md py-1 px-2 focus:border-yellow-500">
             </div>
             <div class="col-span-4 flex flex-col items-start">
               <p class="text-yellow-500 font-medium mx-2">Nama</p>
-              <input type="text" placeholder="Nama Lengkap" name="nama" required oninvalid="this.setCustomValidity('Semua data harus diisi')"
+              <input type="text" placeholder="Masukkan Nama Lengkap" name="nama" required oninvalid="this.setCustomValidity('Semua data harus diisi')"
                 oninput="this.setCustomValidity('')" {{ empty(request()->get('kota')) || empty(request()->get('kecamatan')) ? 'disabled' : '' }}
                 class="outline-none text-neutral-400 font-medium placeholder:text-neutral-400 border-2 border-neutral-400 focus:text-yellow-500 duration-200 w-full  rounded-md py-1 px-2 focus:border-yellow-500">
             </div>
@@ -100,27 +100,27 @@
             </div>
             <div class="col-span-4 flex flex-col items-start">
               <p class="text-yellow-500 font-medium mx-2">Username</p>
-              <input type="text" placeholder="username" name="username" required oninput="this.setCustomValidity('')"
+              <input type="text" placeholder="Masukkan username" name="username" required oninput="this.setCustomValidity('')"
                 oninvalid="this.setCustomValidity('Semua data harus diisi')"
                 {{ empty(request()->get('kota')) || empty(request()->get('kecamatan')) ? 'disabled' : '' }}
                 class="outline-none text-neutral-400 font-medium placeholder:text-neutral-400 border-2 border-neutral-400 focus:text-yellow-500 duration-200 w-full  rounded-md py-1 px-2 focus:border-yellow-500">
             </div>
             <div class="col-span-4 flex flex-col items-start">
               <p class="text-yellow-500 font-medium mx-2">Password</p>
-              <input type="password" placeholder="password" name="password" required oninvalid="this.setCustomValidity('Semua data harus diisi')"
+              <input type="password" placeholder="Masukkan password" name="password" required oninvalid="this.setCustomValidity('Semua data harus diisi')"
                 oninput="this.setCustomValidity('')" {{ empty(request()->get('kota')) || empty(request()->get('kecamatan')) ? 'disabled' : '' }}
                 class="outline-none text-neutral-400 font-medium placeholder:text-neutral-400 border-2 border-neutral-400 focus:text-yellow-500 duration-200 w-full rounded-md py-1 px-2 focus:border-yellow-500">
             </div>
             <div class="col-span-4 flex flex-col items-start">
               <p class="text-yellow-500 font-medium mx-2">No HP</p>
-              <input type="text" placeholder="no_hp" name="no_hp" minlength="9" maxlength="13" required
+              <input type="text" placeholder="Masukkan nomor hp" name="no_hp" minlength="9" maxlength="13" required
                 oninvalid="this.setCustomValidity('Semua data harus diisi')" oninput="this.setCustomValidity('')"
                 {{ empty(request()->get('kota')) || empty(request()->get('kecamatan')) ? 'disabled' : '' }}
                 class="outline-none text-neutral-400 font-medium placeholder:text-neutral-400 border-2 border-neutral-400 focus:text-yellow-500 duration-200 w-full  rounded-md py-1 px-2 focus:border-yellow-500">
             </div>
             <div class="col-span-4 flex flex-col items-start">
               <p class="text-yellow-500 font-medium mx-2">No KTP</p>
-              <input type="text" placeholder="no_ktp" name="no_ktp" minlength="16" maxlength="16" required
+              <input type="text" placeholder="Masukkan Nomor KTP" name="no_ktp" minlength="16" maxlength="16" required
                 oninvalid="this.setCustomValidity('Semua data harus diisi')" oninput="this.setCustomValidity('')"
                 {{ empty(request()->get('kota')) || empty(request()->get('kecamatan')) ? 'disabled' : '' }}
                 class="outline-none text-neutral-400 font-medium placeholder:text-neutral-400 border-2 border-neutral-400 focus:text-yellow-500 duration-200 w-full  rounded-md py-1 px-2 focus:border-yellow-500">
@@ -139,7 +139,7 @@
             </div>
             <div class="col-span-4 flex flex-col items-start">
               <p class="text-yellow-500 font-medium mx-2">No Rekening</p>
-              <input type="text" placeholder="no_ktp" name="no_rekening" minlength="10" maxlength="16" required
+              <input type="text" placeholder="Masukkan Nomor Rekening" name="no_rekening" minlength="10" maxlength="16" required
                 oninvalid="this.setCustomValidity('Semua data harus diisi')" oninput="this.setCustomValidity('')"
                 {{ empty(request()->get('kota')) || empty(request()->get('kecamatan')) ? 'disabled' : '' }}
                 class="outline-none text-neutral-400 font-medium placeholder:text-neutral-400 border-2 border-neutral-400 focus:text-yellow-500 duration-200 w-full  rounded-md py-1 px-2 focus:border-yellow-500">
