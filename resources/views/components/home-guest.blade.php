@@ -15,7 +15,7 @@
     <p class="text-neutral-400 text-sm font-light">Ringkasan proyek pendanaan yang pernah dijalankan baik dari sisi mitra maupun pendana</p>
   </div>
 </div>
-<div
+<a href="/login"><div
   class="w-[21rem] cursor-pointer my-4 font-bold text-center py-2 bg-yellow-500 text-xl text-white hover:shadow-md hover:shadow-black/40 hover:text-yellow-500 hover:bg-white rounded-full duration-200">
   START USING VESTRY
-</div>
+</div></a>

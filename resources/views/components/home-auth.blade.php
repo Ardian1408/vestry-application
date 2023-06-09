@@ -27,67 +27,7 @@
       <h2 class="text-yellow-500 font-semibold text-1xl my-4">Syarat dan Ketentuan Investasi Agroindustri untuk Pemilik Usaha dan Pendana</h2>
       <div class="flex px-2">
         <div class="h-full min-w-[20rem] rounded-md bg-[url('/images/usaha.jpg')] bg-cover bg-center z-10 shadow-md shadow-black/40"></div>
-        <p class="px-4 text-justify text-neutral-400 drop-shadow-md">Tujuan Investasi
-          Pemilik Usaha: Investasi bertujuan untuk mendapatkan modal tambahan dan pengembangan usaha agroindustri.
-          Pendana: Investasi bertujuan untuk memperoleh keuntungan dari hasil usaha agroindustri.
-          Kerjasama dan Kemitraan
-          Pemilik Usaha: Pendana dianggap sebagai mitra dan memiliki hak untuk memantau dan mengawasi operasional usaha agroindustri.
-          Pendana: Menyadari bahwa investasi adalah bentuk kemitraan dengan pemilik usaha dan bersedia memberikan saran atau masukan yang konstruktif.
-          Pendapatan dan Pembagian Keuntungan
-          Pemilik Usaha: Pendapatan dan keuntungan dari usaha agroindustri akan dibagi sesuai dengan kesepakatan yang telah ditetapkan dalam perjanjian investasi.
-          Pendana: Berhak menerima bagian keuntungan yang telah disepakati, sesuai
-          </p>
-      </div>
-    </div>
-    <div class="swiper-slide flex flex-col items-center">
-      <h2 class="text-yellow-500 font-semibold text-1xl my-4">Syarat dan Ketentuan Investasi Agroindustri untuk Pemilik Usaha dan Pendana</h2>
-      <div class="flex px-2">
-        <div class="h-full min-w-[20rem] rounded-md bg-[url('/images/finance.jpg')] bg-cover bg-center z-10 shadow-md shadow-black/40"></div>
-        <p class="px-4 text-justify text-neutral-400 drop-shadow-md">Penyertaan Modal dan Investasi
-          Pemilik Usaha: Menggunakan dana investasi untuk pengembangan dan operasional usaha agroindustri yang telah ditentukan dalam perjanjian investasi.
-          Pendana: Menyertakan dana investasi sesuai dengan jumlah yang telah disepakati dalam perjanjian investasi.
-          Tanggung Jawab dan Risiko
-          Pemilik Usaha: Bertanggung jawab atas pengelolaan usaha agroindustri, termasuk keberhasilan operasional, penjualan produk, dan pemenuhan kewajiban terhadap Pendana.
-          Pendana: Menyadari risiko investasi agroindustri, termasuk fluktuasi pasar, perubahan regulasi, kerusakan hasil panen, dan bencana alam, serta bersedia menerima risiko tersebut.
-        </p>
-      </div>
-    </div>
-    <div class="swiper-slide flex flex-col items-center">
-      <h2 class="text-yellow-500 font-semibold text-1xl my-4">Syarat dan Ketentuan Investasi Agroindustri untuk Pemilik Usaha dan Pendana</h2>
-      <div class="flex px-2">
-        <div class="h-full min-w-[20rem] rounded-md bg-[url('/images/finance.jpg')] bg-cover bg-center z-10 shadow-md shadow-black/40"></div>
-        <p class="px-4 text-justify text-neutral-400 drop-shadow-md">Pengungkapan Informasi
-          Pemilik Usaha: Wajib memberikan informasi yang akurat, jujur, dan terperinci tentang kinerja usaha agroindustri kepada Pendana secara berkala.
-          Pendana: Menyadari bahwa informasi yang diberikan oleh pemilik usaha adalah dasar keputusan investasi dan bertanggung jawab untuk memahami informasi tersebut.
-          Perubahan dan Pengakhiran Perjanjian
-          Pemilik Usaha: Berhak melakukan perubahan pada struktur bisnis, komposisi portofolio, atau kebijakan usaha agroindustri, dengan memberikan pemberitahuan tertulis kepada Pendana.
-          Pendana: Jika terjadi perubahan signifikan dalam perjanjian investasi, Pendana berhak mempertimbangkan opsi pengunduran diri atau negosiasi ulang.
-        </p>
-      </div>
-    </div>
-    <div class="swiper-slide flex flex-col items-center">
-      <h2 class="text-yellow-500 font-semibold text-1xl my-4">Syarat dan Ketentuan Investasi Agroindustri untuk Pemilik Usaha dan Pendana</h2>
-      <div class="flex px-2">
-        <div class="h-full min-w-[20rem] rounded-md bg-[url('/images/finance.jpg')] bg-cover bg-center z-10 shadow-md shadow-black/40"></div>
-        <p class="px-4 text-justify text-neutral-400 drop-shadow-md">Pembatalan dan Penarikan Investasi
-          Pemilik Usaha: Tidak diperbolehkan melakukan pembatalan atau penarikan dana investasi kecuali ada persetujuan tertulis dari Pendana.
-          Pendana: Dalam situasi tertentu, Pendana dapat meminta pembatalan atau penarikan dana investasi sesuai dengan ketentuan dalam perjanjian investasi.
-          
-           Perpajakan dan Kepatuhan Hukum
-          Pemilik Usaha: Bertanggung jawab atas pemenuhan kewajiban perpajakan yang timbul dari usaha agroindustri sesuai dengan peraturan perpajakan yang berlaku.
-          Pendana: Bertanggung jawab atas kewajiban perpajakan pribadi yang timbul dari keuntungan investasi agroindustri sesuai dengan peraturan perpajakan yang berlaku.          
-        </p>
-      </div>
-    </div>
-    <div class="swiper-slide flex flex-col items-center">
-      <h2 class="text-yellow-500 font-semibold text-1xl my-4">Syarat dan Ketentuan Investasi Agroindustri untuk Pemilik Usaha dan Pendana</h2>
-      <div class="flex px-2">
-        <div class="h-full min-w-[20rem] rounded-md bg-[url('/images/finance.jpg')] bg-cover bg-center z-10 shadow-md shadow-black/40"></div>
-        <p class="px-4 text-justify text-neutral-400 drop-shadow-md">Penyelesaian Sengketa
-          a. Pemilik Usaha dan Pendana: Setuju untuk menyelesaikan sengketa yang timbul dari investasi agroindustri secara musyawarah dan mufakat, dengan upaya penyelesaian yang adil dan bijaksana.
-          
-          Harap diperhatikan bahwa syarat dan ketentuan ini hanya sebagai panduan umum dan dapat disesuaikan dengan kesepakatan yang ditetapkan dalam kontrak perjanjian antara pemilik usaha dan Pendana.                    
-        </p>
+        <p class="px-4 text-justify text-neutral-400 drop-shadow-md"></p>
       </div>
     </div>
 
