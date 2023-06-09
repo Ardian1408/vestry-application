@@ -39,7 +39,9 @@ class UserSeeder extends Seeder
       ['nama_jenis_usaha' => 'Pertenakan'],
       ['nama_jenis_usaha' => 'Pertanian'],
       ['nama_jenis_usaha' => 'Perkebunan'],
-      ['nama_jenis_usaha' => 'Tambak']
+      ['nama_jenis_usaha' => 'Tambak'],
+      ['nama_jenis_usaha' => 'Data2'],
+      ['nama_jenis_usaha' => 'Data1']
     ));
     Pendana::create([
       'nama' => 'Tester Pendana',
