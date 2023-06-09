@@ -41,7 +41,7 @@
     @else
       <div class="flex-1 flex flex-col items-center text-center gap-2">
         <div class="flex flex-col items-center text-neutral-800 mt-4 bg-neutral-800 p-4 rounded-lg">
-          <img src="/images/logo.png" alt="vestry logo" class="w-40 h-16">
+          <a href="/"><img src="/images/logo.png" alt="vestry logo" class="w-40 h-16"></a>
         </div>
 
         <h1 class="text-yellow-500 text-3xl font-semibold">Login</h1>
