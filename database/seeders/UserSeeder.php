@@ -36,12 +36,10 @@ class UserSeeder extends Seeder
       ['nama_bank' => 'Bank Mandiri']
     ));
     JenisUsaha::insert(array(
-      ['nama_jenis_usaha' => 'Website Bussiness'],
-      ['nama_jenis_usaha' => 'Teknologi Jaringan'],
-      ['nama_jenis_usaha' => 'Software House'],
-      ['nama_jenis_usaha' => 'Wifi Provider'],
-      ['nama_jenis_usaha' => 'Rumah Makan'],
-      ['nama_jenis_usaha' => 'Tempat Wisata']
+      ['nama_jenis_usaha' => 'Pertenakan'],
+      ['nama_jenis_usaha' => 'Pertanian'],
+      ['nama_jenis_usaha' => 'Perkebunan'],
+      ['nama_jenis_usaha' => 'Tambak']
     ));
     Pendana::create([
       'nama' => 'Tester Pendana',
